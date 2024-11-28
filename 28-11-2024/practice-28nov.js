@@ -89,5 +89,135 @@
 
 // Selection Practice Problems with if else if and else
 // 11)
+// let num = process.argv[2];
+// if(num == 0){
+//     console.log("zero")
+// }
+// if(num == 1){
+//     console.log("one")
+// }
+// if(num == 2){
+//     console.log("two")
+// }
+// if(num == 3){
+//     console.log("three")
+// }
+// if(num == 4){
+//     console.log("four")
+// }
+// if(num == 5){
+//     console.log("five")
+// }
+// if(num == 6){
+//     console.log("six")
+// }
+// if(num == 7){
+//     console.log("seven")
+// }
+// if(num == 8){
+//     console.log("eight")
+// }
+// if(num == 9){
+//     console.log("nine")
+// }
 
 
+//12) 
+// let num = process.argv[2];
+// if(num == 1){
+//     console.log("sunday")
+// }
+// if(num == 2){
+//     console.log("monday")
+// }
+// if(num == 3){
+//     console.log("tuesday")
+// }
+// if(num == 4){
+//     console.log("wednesday")
+// }
+// if(num == 5){
+//     console.log("thrusday")
+// }
+// if(num == 6){
+//     console.log("friday")
+// }
+// if(num == 7){
+//     console.log("saturday")
+// }
+
+
+//13) read unit
+// let num = process.argv[2];
+// if(num == 1){
+//     console.log("unit")
+// }
+// if(num == 10){
+//     console.log("ten")
+// }
+// if(num == 100){
+//     console.log("hundered")
+// }
+// if(num == 1000){
+//     console.log("thousand")
+// }
+
+//14) arithmetic operation
+// let a = 10;
+// let b = 10;
+// let c = 10;
+
+// calculate(a,b,c)
+
+// function calculate(a,b,c){
+//     let op1 = a+b*c;
+//     let op2 = c+a/b;
+//     let op3 = a%b+c;
+//     let op4 = a*b+c;
+
+//     let result = [op1,op2,op3,op4];
+    
+//     let min = Math.min(...result);
+//     let max = Math.max(...result);
+
+//     console.log(min);
+//     console.log(max);
+// }
+
+
+//15)  switch case
+
+
+//16)
+
+
+//17)
+
+
+//18)
+
+
+// loops
+
+//19
+// let num = process.argv[2];
+// for(let i=0;i<=num;i++){
+//     console.log(Math.pow(2,i))
+// }
+
+
+//20) harmonic number 
+// let num = process.argv[2];
+// for(let i = 0;i<num;i++){
+//     console.log(1/i);
+// }
+
+//21) prime number
+// let num = process.argv[2];
+// for(let i=2;i<=Math.sqrt(num);i++){
+//     if(num%i === 0){
+//         console.log("false")
+//     }else{
+//         console.log("true");
+//     }
+// }
