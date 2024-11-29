@@ -221,3 +221,36 @@
 //         console.log("true");
 //     }
 // }
+
+
+//22) factorial
+// let num = process.argv[2];
+// let result = 1;
+// for(let i=1;i<=num;i++){
+//     result *=i;
+// }
+// console.log(result);
+
+
+
+// 23)
+// let num = process.argv[2];
+
+// for(let i=2;i<=Math.pow(2,num);i++){
+//     let result = 2*i;
+//     if( result == 256){
+//         break;
+//     }
+//     console.log(result);
+// }
+
+
+//24)
+// let num = process.argv[2];
+// if(num < num/2){
+//     console.log("magic number reached")
+// }
+// else{
+//     num = process.argv[2];
+//     console.log("not reached")
+// }
