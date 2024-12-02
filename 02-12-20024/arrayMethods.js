@@ -1,8 +1,8 @@
 /* Array Methods :- In JavaScript, arrays come with built-in methods that make it easier to manipulate and interact with the data.*/
 
-//1) Adding / Removing Elements 
+//1) Adding / Removing Elements
 // const arr = [1,2];
-// push 
+// push
 // arr.push(3);
 // console.log(arr);
 // pop
@@ -15,15 +15,12 @@
 // arr.shift();
 // console.log(arr);
 
-
 // const array = [1,2,3];
 // array.splice(1,1,'a'); // (starting index , number of items to be replaced, from what)
 // console.log(array);
 
 // const merged = arr.concat(array); //merges 2 array
 // console.log(merged);
-
-
 
 // 2) Iteration and Searching
 //forEach
@@ -49,4 +46,33 @@
 // //every
 // const everyans = some.every(num=>num%2 === 0);
 // console.log(everyans);
+
+// Sorting and reversing
+//sort
+// const arr = [4, 2, 1, 5];
+
+// arr1 = [4, 2, 1, 5];
+
+// const sort = arr.sort();
+// console.log(sort);
+// //reverse
+// const reverse = arr.reverse();
+// console.log(reverse);
+// console.log(arr);
+
+// console.log("************************************");
+
+// sort1 = arr1.sort();
+// console.log(sort);
+// //reverse
+// reverse1 = arr1.reverse();
+// console.log(reverse1);
+// console.log(arr1);
+
+// const arr = [4,2,1,5];      // use [...arr].sort()/reverse() for make changes in copy or to avoid in-place mutation
+// const sort = [...arr].sort();
+// console.log(sort);
+// const reverse = [...arr].reverse();
+// console.log(reverse);
+
 
