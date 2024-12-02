@@ -47,7 +47,7 @@
 // const everyans = some.every(num=>num%2 === 0);
 // console.log(everyans);
 
-// Sorting and reversing
+// 3)Sorting and reversing
 //sort
 // const arr = [4, 2, 1, 5];
 
@@ -76,3 +76,31 @@
 // console.log(reverse);
 
 
+// 4) Utility Methods
+// includes
+// const arr = [1,2,3];
+// const ans = arr.includes(2);
+// console.log(ans);
+//indexOf
+// const arr = [1,2,3];
+// const ans = arr.indexOf(3);
+// console.log(ans);
+//last indexOf
+// const arr = [1,2,3,4];
+// const ans = arr.lastIndexOf(3);
+// console.log(ans);
+// const arr = [1,2,3,4];
+// const ans = arr.join();
+// console.log(ans);
+//slice
+// const arr = [1,2,3,4,5,6];
+// const ans = arr.slice(2,5); // last index is excluded
+// console.log(ans);
+// flat
+//  const arr = [1,2,[3,4,[1,3],5],]   // falttens only one level
+// const ans = arr.flat(Infinity);
+// console.log(ans);
+// reduce
+// const arr = [1,2,3,4,5];   
+// const ans = arr.reduce((acc,num) => acc+num,0);
+// console.log(ans);
