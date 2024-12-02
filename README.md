@@ -12,4 +12,6 @@ THIS FILE CONTAINS DAY-WISE LEARNINGS
         
 28-NOV-2024
   Topics covered 
-        Closures
+        Examples of hoisting with codes 
+        Basics of closures
+        
