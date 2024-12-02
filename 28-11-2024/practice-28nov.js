@@ -254,3 +254,30 @@
 //     num = process.argv[2];
 //     console.log("not reached")
 // }
+
+
+
+// function convertTemperature(conversionType, temperature) {
+//     if ((conversionType === 'CtoF' && (temperature < 0 || temperature > 100)) || 
+//         (conversionType === 'FtoC' && (temperature < 32 || temperature > 212))) {
+//         return 'Input temperature out of range. Please enter a value within the freezing (0°C / 32°F) and boiling (100°C / 212°F) points.';
+//     }
+
+//     let result;
+
+//     switch (conversionType) {
+//         case 'CtoF':
+//             result = (temperature * 9/5) + 32;
+//             return `${temperature}°C is equal to ${result}°F.`;
+        
+//         case 'FtoC':
+//             result = (temperature - 32) * 5/9;
+//             return `${temperature}°F is equal to ${result.toFixed(2)}°C.`;
+        
+//         default:
+//             return 'Invalid conversion type. Use "CtoF" for Celsius to Fahrenheit or "FtoC" for Fahrenheit to Celsius.';
+//     }
+// }
+
+// console.log(convertTemperature('CtoF', 25));  // Convert 25°C to °F
+// console.log(convertTemperature('FtoC', 50));
