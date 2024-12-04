@@ -36,6 +36,8 @@ THIS FILE CONTAINS DAY-WISE LEARNINGS
             Map and Set
             Weak Map and Weak Set
             Destructuring(array,rest,object,mixed,function params,defaults,swapping variables,loops)
+
+            
 04-12-2024
       Topics Covered 
             Employee Wage Task
